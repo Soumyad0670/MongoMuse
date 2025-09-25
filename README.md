@@ -64,7 +64,7 @@ Welcome to **MongoMuse** — a full-stack web application that lets you effortle
 
 Explore and test the API endpoints using the interactive Swagger UI:
 
-👉 [Swagger UI](http://localhost:8000/docs)
+👉 [Swagger UI](assets/swagger_demo.mkv)
 
 ---
 
@@ -72,11 +72,11 @@ Explore and test the API endpoints using the interactive Swagger UI:
 
 ### Home Page
 
-![Home Page](https://via.placeholder.com/800x400.png?text=Home+Page)
+![Home Page](assets/frontend)
 
 ### User Management
 
-![User Management](https://via.placeholder.com/800x400.png?text=User+Management)
+![User Management](assets/list_directories)
 
 ---
 
