@@ -64,19 +64,17 @@ Welcome to **MongoMuse** — a full-stack web application that lets you effortle
 
 Explore and test the API endpoints using the interactive Swagger UI:
 
-🎥 [Watch Swagger Demo](https://github.com/Soumyad0670/MongoMuse/blob/main/assets/swagger_demo.mkv)
-
----
-
 ## 📸 Screenshots
 
-### Home Page
+### Frontend
+<img src="assets/frontend.png" alt="Frontend" width="500"/>
 
-![Home Page]("D:\Code\MongoMuse\assets\frontend.png")
+### List Directories
+<img src="assets/list_directories.png" alt="List Directories" width="500"/>
 
-### User Management
+### Swagger Demo (video link)
+🎥 [Watch Demo](https://github.com/Soumyad0670/MongoMuse/blob/main/assets/swagger_demo.mkv)
 
-![User Management]("D:\Code\MongoMuse\assets\list_directories.png")
 
 ---
 
