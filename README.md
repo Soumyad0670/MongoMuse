@@ -2,8 +2,6 @@
 
 Welcome to **MongoMuse** — a full-stack web application that lets you effortlessly manage users through a sleek HTML frontend, powered by FastAPI and MongoDB.
 
-![MongoMuse Demo](https://via.placeholder.com/800x400.png?text=MongoMuse+Demo)
-
 ---
 
 ## 🚀 Features
