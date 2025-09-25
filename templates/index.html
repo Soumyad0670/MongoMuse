@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MongoMuse | User Manager</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>👥 MongoMuse — User Manager</h1>
+            <p class="subtitle">Manage users with ease: Create, Update, Delete</p>
+        </header>
+
+        <!-- Create User Form -->
+        <section class="card create-card">
+            <h2>Create New User</h2>
+            <form action="/create" method="post" class="form">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="number" name="age" placeholder="Age" min="1" required>
+                <button type="submit" class="btn btn-primary">➕ Add User</button>
+            </form>
+        </section>
+
+        <!-- Existing Users -->
+        <section class="users-list">
+            <h2>Existing Users</h2>
+            {% if users %}
+                <div class="users-grid">
+                    {% for user in users %}
+                    <div class="card user-card">
+                        <form action="/update" method="post" class="form-inline">
+                            <input type="hidden" name="user_id" value="{{ user.id }}">
+                            <input type="text" name="name" value="{{ user.name }}" required>
+                            <input type="email" name="email" value="{{ user.email }}" required>
+                            <input type="number" name="age" value="{{ user.age }}" required>
+                            <button type="submit" class="btn btn-success">💾 Save</button>
+                        </form>
+                        <form action="/delete" method="post" class="form-inline">
+                            <input type="hidden" name="user_id" value="{{ user.id }}">
+                            <button type="submit" class="btn btn-danger">🗑 Delete</button>
+                        </form>
+                    </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <p class="no-users">No users found. Add your first user above 👆</p>
+            {% endif %}
+        </section>
+    </div>
+</body>
+</html>
