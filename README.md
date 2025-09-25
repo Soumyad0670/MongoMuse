@@ -72,11 +72,11 @@ Explore and test the API endpoints using the interactive Swagger UI:
 
 ### Home Page
 
-![Home Page](https://github.com/Soumyad0670/MongoMuse/blob/main/assets/frontend)
+![Home Page]("D:\Code\MongoMuse\assets\frontend.png")
 
 ### User Management
 
-![User Management](https://github.com/Soumyad0670/MongoMuse/blob/main/assets/list_directories)
+![User Management]("D:\Code\MongoMuse\assets\list_directories.png")
 
 ---
 
